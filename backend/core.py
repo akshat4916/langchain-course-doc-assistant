@@ -93,7 +93,7 @@ def run_llm(query: str) -> Dict[str, Any]:
 
     
     return {
-        "answer":answer,
+        "answer":answer[0]['text'],
         "context": context_docs
     }
 
