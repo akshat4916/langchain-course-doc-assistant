@@ -1,0 +1,32 @@
+[project]
+name = "langchain-course-doc-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "black>=26.3.0",
+    "fastapi>=0.135.1",
+    "isort>=8.0.1",
+    "jinja2>=3.1.6",
+    "langchain>=1.2.10",
+    "langchain-chroma>=1.1.0",
+    "langchain-google-genai>=4.2.1",
+    "langchain-pinecone>=0.2.13",
+    "langchain-tavily>=0.2.17",
+    "langchain-text-splitters>=1.1.1",
+    "nltk>=3.9.3",
+    "pinecone>=7.3.0",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.55.0",
+    "streamlit-chat>=0.1.1",
+    "tiktoken>=0.12.0",
+    "tqdm>=4.67.3",
+    "uvicorn>=0.41.0",
+]
+
+[tool.uv]
+required-environments = [
+    "sys_platform == 'darwin' and platform_machine == 'x86_64'"
+]
